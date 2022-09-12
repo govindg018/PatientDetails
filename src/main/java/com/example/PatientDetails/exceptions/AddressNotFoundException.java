@@ -1,0 +1,16 @@
+package com.example.PatientDetails.exceptions;
+
+public class AddressNotFoundException extends RuntimeException {
+
+	public AddressNotFoundException() {
+		super();
+	}
+	
+		public AddressNotFoundException(String message) {
+			super(message);
+		
+	}	
+	
+	
+	
+}
